@@ -3,6 +3,7 @@ import tour2 from "./images/tour-2.jpeg";
 import tour3 from "./images/tour-3.jpeg";
 import tour4 from "./images/tour-4.jpeg";
 import tour5 from "./images/tour-5.jpeg";
+import tour6 from "./images/tour-6.jpeg";
 
 export const pageLinks = [
   { id: 1, href: "#home", text: "home" },
@@ -92,5 +93,15 @@ export const tours = [
     location: "SA",
     duration: 6,
     cost: 2100,
+  },
+  {
+    id: 6,
+    image: tour6,
+    date: "may 26th, 2024",
+    title: "Tibet Adventure",
+    info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.",
+    location: "Harare",
+    duration: 7,
+    cost: 9100,
   },
 ];
